@@ -1,6 +1,6 @@
 import  React from 'react';
 import {PermissionsAndroid, StyleSheet, Text, TextInput, View, Button,Dimensions } from 'react-native';
-import firebaseSDK from '../config/firebaseSDK';
+import firebaseSDK from './firebaseSDK';
 //import { PermissionsAndroid } from 'react-native';
 
 export default class Login extends React.Component {
