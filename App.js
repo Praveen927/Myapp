@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import Login from './components/Login';
-import Signup from './components/Signup';
-import Chat from './components/Chat'; 
+import Login from './Login';
+import Signup from './Signup';
+import Chat from './Chat'; 
 //import { GiftedChat } from 'react-native-gifted-chat';
  
 const Stack = createStackNavigator({
